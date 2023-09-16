@@ -110,4 +110,54 @@ a{
     align-items: center;
     width: 100%;
 }
+.inputText{
+    padding:0.5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: thin solid rgb(224, 224, 224);
+    border-radius: 4px;
+    width:9cm;
+    font-size: 16px;
+    
+}
 
+.inputText:oninput{
+    border: 1px solid ;
+}
+
+.b1{
+    border:none;
+    background-color: #1A73E8;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0.3cm 0.6cm;
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.7cm;
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.select{
+    border:none;
+}
+
+.option{
+    border: none;
+    padding: 1cm;
+}
