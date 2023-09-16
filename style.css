@@ -1,82 +1,53 @@
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+    
 }
 
-.center {
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    bottom: 50%;
-    right: 20%;
-    width: 500px;
+.cover{
+    width:100vw;
+    
 }
 
-.header {
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5cm;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3cm;
+    height: 95vh;
+}
+
+.photo{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items:center;
+    padding: 0.5cm;
+}
+.gmailImg{
+    width:12cm;
+    height:10cm;
 }
 
-
-
-.topnav {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   align-items: center;
-   column-gap: 0.5cm;
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.7cm;
+    border: thin solid rgb(219, 219, 219);
+    border-radius: 5px;
+    padding:1.5cm 1cm;
 }
-
-.topnav a {
-   color: black;
-   text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: rgb(55, 156, 240);
-    color: black;
-}
-
-#login {
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0%;
-    margin: 0;
-    border: 10px solid black;
-}
-
-.login form {
-    background-color: floralwhite;
-    width: 250px;
-    padding: 50px;
-    margin: 50px;
-    border: 2px solid black;
-    box-shadow: blueviolet;
-    margin-top: 50 px;
-    text-align: center;
-    margin-left: 35%;
-}
-
-button {
-    background-color: rgb(0, 0, 0);
-    color: cornsilk;
-    padding: 5px;
-}
-
-input {
-    padding: 5px;
-}
-
-.footer {
-    background-color: black;
-    border: 10px solid black;
-}
-
-.footer h6 {
-    text-align: center;
-    color: white;
-    font-size: 1.3rem;
+.logo{
+    width:2cm;
+    height: 0.7cm;
 }
