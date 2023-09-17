@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Gmail</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Old+Permic|Roboto">
 </head>
@@ -22,20 +22,29 @@
                         <p class="h1">Sign in</p>
                         <p class="h2">to continue to Gmail</p>
                     </div>
-                    <div class="col2">
-                        <input type="email" placeholder="Email or phone" class="inputText" />
-                        <a href="h3">Forgot email?</a>
-                    </div>
-                    <div class="col3">
-                        <p class="h4">Not your computer? Use Guest mode to sign in privately.</p>
-                        <a href=" " class="h5">Learn more</a>
-                    </div>
-                    <div class="col4">
-                        <a href="" class="h6">Create account</a>
-                        <button class="b1">Next</button>
-                    </div>
+                    <form action="password.html">
+                        <div class="col2">
+                            <input type="email" placeholder="Email or phone" class="inputText" required />
+                            <a href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fmail.google.com&dsh=S-1106986410%3A1694845376890491&flowEntry=AddSession&flowName=GlifWebSignIn&hl=en-GB&service=mail&theme=glif&authuser=0"
+                                class="h3">Forgot email?</a>
+                        </div>
+                        <div class="col3 martop">
+                            <p class="h4">Not your computer? Use Guest mode to sign in privately.</p>
+                            <a href="https://support.google.com/accounts/answer/2917834?visit_id=638304581813321469-1888951922&p=signin_privatebrowsing&hl=en-GB&rd=1 "
+                                class="h5">Learn more</a>
+                        </div>
+                        <div class="col4">
+                            <button onclick="myFunction()" class="h6 b2 dropbtn">Create account</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">For My Personal Use</a>
+                                <a href="#">For my child</a>
+                                <a href="#">For work or business</a>
+                            </div>
 
+                            <input type='submit' class="b1" value="Next"></input>
+                    </form>
                 </div>
+
                 <div class="footer">
                     <div class="footer-content">
                         <select name="language" id="lang" class="select">
