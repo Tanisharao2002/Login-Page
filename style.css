@@ -818,7 +818,7 @@ a {
     }
     
     .wrapper {
-       
+        align-items: flex-start;
         height: 95vh;
         width: 100vw;
     }
