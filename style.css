@@ -586,8 +586,8 @@ a {
     .login-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: column;
         row-gap: 0.5cm;
         border: thin solid rgb(255, 255, 255);
         /* border-radius: 5px; */
