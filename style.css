@@ -244,6 +244,11 @@ a {
 }
 
 @media only screen and (min-width:490px) and (max-width:650px){
+    .cover {
+        width: 90%;
+        margin-top: 0.5cm;
+    }
+    
     .b1 {
         border: none;
         background-color: #297ff0;
@@ -315,77 +320,8 @@ a {
 
 }
 
-@media only screen and (min-width:470px) and (max-width:490px){
-    .b1 {
-        border: none;
-        background-color: #297ff0;
-        border-radius: 4px;
-        font-size: 12px;
-        padding: 0.3cm 0.3cm;
-        color: white;
-        font-weight: bold;
-    }
 
-    .h1 {
-        font-size: 18px;
-        font-family: Noto Sans Old Permic;
-    }
-    
-    .h2 {
-        font-size: 13px;
-        font-family: Noto Sans Old Permic;
-    }
-    
-    a {
-        font-size: 11px;
-        color: #297ff0;
-        text-decoration: none;
-        font-weight: 600;
-        font-family: Roboto; 
-    }
-    
-    .h4 {
-        font-size: 11px;
-        font-family: Noto Sans Old Permic;
-        color: #5f5f5f;
-    }
-    
-    .h5 {
-        font-size: 11px;
-        font-family: Noto Sans Old Permic;
-    }
-    
-    .h6 {
-        font-size: 11px;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #ffffff;
-        width: 4cm;
-        overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    
-    }
-
-    .martop {
-        margin-top: 0.5cm;
-    }
-    
-    .martopbot {
-        margin: 0.8cm 0;
-    }
-    .checkButton {
-        width: 0.2cm;
-        height: 0.2cm;
-    }
-    
-
-}
-
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:500px) {
     * {
         margin: 0;
         padding: 0;
@@ -393,7 +329,7 @@ a {
     }
     
     .cover {
-        width: 100vw;
+        width: 90vw;
         margin-top: 0.5cm;
     }
     
@@ -420,7 +356,7 @@ a {
         row-gap: 0.6cm;
         /* border: thin solid rgb(219, 219, 219); */
         /* border-radius: 5px; */
-        padding: 1cm 1cm;
+        padding: 0.5cm 0.5cm;
     }
     
     .logo {
