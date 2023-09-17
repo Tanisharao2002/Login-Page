@@ -2,13 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-
 }
 
 .cover {
     width: 100vw;
     margin-top: 0.5cm;
-
 }
 
 .container {
@@ -24,19 +22,6 @@
     align-items: center;
     column-gap: 3cm;
     height: 95vh;
-}
-
-.photo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5cm;
-}
-
-.gmailImg {
-    width: 12cm;
-    height: 10cm;
 }
 
 .login-wrapper {
@@ -244,3 +229,89 @@ a {
     width: 0.5cm;
     height: 0.5cm;
 }
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    .b1 {
+        border: none;
+        background-color: #297ff0;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 0.2cm 0.5cm;
+        color: white;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (min-width:490px) and (max-width:650px){
+    .b1 {
+        border: none;
+        background-color: #297ff0;
+        border-radius: 4px;
+        font-size: 12px;
+        padding: 0.15cm 0.4cm;
+        color: white;
+        font-weight: bold;
+    }
+
+    .h1 {
+        font-size: 20px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h2 {
+        font-size: 14px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #297ff0;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: Roboto;
+    
+    
+    }
+    
+    .h4 {
+        font-size: 12px;
+        font-family: Noto Sans Old Permic;
+        color: #5f5f5f;
+    }
+    
+    .h5 {
+        font-size: 12px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h6 {
+        font-size: 12px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 5cm;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    
+    }
+
+    .martop {
+        margin-top: 0.7cm;
+    }
+    
+    .martopbot {
+        margin: 1cm 0;
+    }
+    .checkButton {
+        width: 0.3cm;
+        height: 0.3cm;
+    }
+    
+
+}
+
