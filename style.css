@@ -136,7 +136,7 @@ a {
 
 }
 
-.inputText:focus{
+.inputText:focus {
     outline: none;
     border: 2px solid rgb(25, 99, 197);
 }
@@ -201,11 +201,11 @@ a {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    width:6cm;
+    width: 6cm;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-   
+
 }
 
 .dropdown-content a {
@@ -224,13 +224,15 @@ a {
     display: block;
 }
 
-.martop{
-    margin-top:1cm;
+.martop {
+    margin-top: 1cm;
 }
-.martopbot{
-    margin:2cm 0;
+
+.martopbot {
+    margin: 2cm 0;
 }
-.check{
+
+.check {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -238,7 +240,7 @@ a {
     column-gap: 0.5cm;
 }
 
-.checkButton{
-    width:0.5cm;
-    height:0.5cm;
+.checkButton {
+    width: 0.5cm;
+    height: 0.5cm;
 }
