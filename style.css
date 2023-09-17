@@ -89,7 +89,9 @@ a {
 .h6 {
     font-size: 14px;
 }
-.col1{
+
+
+.col1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,47 +99,51 @@ a {
     row-gap: 0.2cm;
 }
 
-.col2{
+.col2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     row-gap: 0.2cm;
 }
-.col3{
+
+.col3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.col4{
+.col4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-top: 0.5cm;
 }
-.inputText{
-    padding:0.5cm;
+
+.inputText {
+    padding: 0.5cm;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     border: thin solid rgb(224, 224, 224);
     border-radius: 4px;
-    width:9cm;
+    width: 9cm;
     font-size: 16px;
-    
+
 }
 
-.inputText:oninput{
-    border: 1px solid ;
+.inputText:focus{
+    outline: none;
+    border: 2px solid rgb(25, 99, 197);
 }
 
-.b1{
-    border:none;
-    background-color: #1A73E8;
+.b1 {
+    border: none;
+    background-color: #297ff0;
     border-radius: 4px;
     font-size: 14px;
     padding: 0.3cm 0.6cm;
@@ -145,14 +151,14 @@ a {
     font-weight: bold;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,11 +167,78 @@ a {
     font-family: Roboto;
 }
 
-.select{
-    border:none;
+.select {
+    border: none;
 }
 
-.option{
+.option {
     border: none;
     padding: 1cm;
+}
+
+.b2 {
+    background-color: white;
+    border: none;
+    padding: 0.3cm;
+    color: #297ff0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.b2:hover {
+    background-color: rgba(243, 248, 253, 0.807);
+    border: none;
+
+    color: #004b95;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width:6cm;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+   
+}
+
+.dropdown-content a {
+    color: rgb(27, 27, 27);
+    padding: 0.4cm;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+}
+
+.dropdown-content a:hover {
+    background-color: #ededed;
+}
+
+.show {
+    display: block;
+}
+
+.martop{
+    margin-top:1cm;
+}
+.martopbot{
+    margin:2cm 0;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5cm;
+}
+
+.checkButton{
+    width:0.5cm;
+    height:0.5cm;
 }
