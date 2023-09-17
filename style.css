@@ -315,3 +315,308 @@ a {
 
 }
 
+@media only screen and (min-width:470px) and (max-width:490px){
+    .b1 {
+        border: none;
+        background-color: #297ff0;
+        border-radius: 4px;
+        font-size: 12px;
+        padding: 0.3cm 0.3cm;
+        color: white;
+        font-weight: bold;
+    }
+
+    .h1 {
+        font-size: 18px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h2 {
+        font-size: 13px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    a {
+        font-size: 11px;
+        color: #297ff0;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: Roboto; 
+    }
+    
+    .h4 {
+        font-size: 11px;
+        font-family: Noto Sans Old Permic;
+        color: #5f5f5f;
+    }
+    
+    .h5 {
+        font-size: 11px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h6 {
+        font-size: 11px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 4cm;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    
+    }
+
+    .martop {
+        margin-top: 0.5cm;
+    }
+    
+    .martopbot {
+        margin: 0.8cm 0;
+    }
+    .checkButton {
+        width: 0.2cm;
+        height: 0.2cm;
+    }
+    
+
+}
+
+@media only screen and (max-width:470px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Roboto;
+    }
+    
+    .cover {
+        width: 100vw;
+        margin-top: 0.5cm;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5cm;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3cm;
+        height: 95vh;
+    }
+    
+    .login-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 0.6cm;
+        /* border: thin solid rgb(219, 219, 219); */
+        /* border-radius: 5px; */
+        padding: 1cm 1cm;
+    }
+    
+    .logo {
+        width: 2cm;
+        height: 0.7cm;
+    }
+    
+    .h1 {
+        font-size: 20px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h2 {
+        font-size: 14px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    a {
+        font-size: 14px;
+        color: #297ff0;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: Roboto;
+    
+    
+    }
+    
+    .h4 {
+        font-size: 14px;
+        font-family: Noto Sans Old Permic;
+        color: #5f5f5f;
+    }
+    
+    .h5 {
+        font-size: 14px;
+        font-family: Noto Sans Old Permic;
+    }
+    
+    .h6 {
+        font-size: 14px;
+    }
+    
+    
+    .col1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 0.2cm;
+    }
+    
+    .col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 0.2cm;
+    }
+    
+    .col3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .col4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 0.5cm;
+    }
+    
+    .inputText {
+        padding: 0.5cm;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border: thin solid rgb(224, 224, 224);
+        border-radius: 4px;
+        width: 9cm;
+        font-size: 16px;
+    
+    }
+    
+    .inputText:focus {
+        outline: none;
+        border: 2px solid rgb(25, 99, 197);
+    }
+    
+    .b1 {
+        border: none;
+        background-color: #297ff0;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 0.3cm 0.6cm;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 0.7cm;
+        font-size: 12px;
+        font-family: Roboto;
+    }
+    
+    .select {
+        border: none;
+    }
+    
+    .option {
+        border: none;
+        padding: 1cm;
+    }
+    
+    .b2 {
+        background-color: white;
+        border: none;
+        padding: 0.3cm;
+        color: #297ff0;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .b2:hover {
+        background-color: rgba(243, 248, 253, 0.807);
+        border: none;
+    
+        color: #004b95;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 6cm;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    
+    }
+    
+    .dropdown-content a {
+        color: rgb(27, 27, 27);
+        padding: 0.4cm;
+        text-decoration: none;
+        display: block;
+        font-weight: lighter;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ededed;
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .martop {
+        margin-top: 1cm;
+    }
+    
+    .martopbot {
+        margin: 2cm 0;
+    }
+    
+    .check {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 0.5cm;
+    }
+    
+    .checkButton {
+        width: 0.5cm;
+        height: 0.5cm;
+    }
+    
+    
+}
